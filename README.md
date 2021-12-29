@@ -7,7 +7,7 @@ It's mostly used as a sample application for Docker 101 workshops.
 To use it:
 
 Build it:
-`docker build -t linux_tweet_app .`
+`docker build -t azfundday3 .`
 
 Run it:
-`docker container run --detach -p 80:80 linux_tweet_app`
+`docker run --detach -p 8080:80 azfundday3`
